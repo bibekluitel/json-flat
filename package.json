@@ -1,0 +1,27 @@
+{
+  "name": "json-flat",
+  "version": "1.0.0",
+  "description": "flatten  tree like json into a array of items.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibekluitel/json-flat.git"
+  },
+  "keywords": [
+    "json",
+    "flat",
+    "tree-flat"
+  ],
+  "author": "Bibek Luitel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibekluitel/json-flat/issues"
+  },
+  "homepage": "https://github.com/bibekluitel/json-flat#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
