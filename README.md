@@ -3,7 +3,7 @@
 
 ## Usage
 
-```json
+```js
  const  flatTree = require('flat-json');
 
  const data = [
