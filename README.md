@@ -4,28 +4,45 @@
 ## Usage
 
 ```js
- const  flatTree = require('flat-json');
+const  flatTree = require('flat-json');
 
- const data = [
-    {
-      "title": "folder_1",
-      "type": "folder",
-      "permission": true,
-      "children": [
-          {
-            "title": "file_1",
-            "type": "sketch"
-          },
-          {
-            "title": "file_2",
-            "type": "pdf"
-          }
-      ]
-
-    } 
+const data = [
+  {
+    "title": "folder_1",
+    "type": "folder",
+    "permission": true,
+    "children": [
+      {
+        "title": "file_1",
+        "type": "sketch"
+      },
+      {
+        "title": "file_2",
+        "type": "pdf"
+      }
+    ]
+  }
 ]
 
 const output = flatTree(data, 'children');
+
+// Output:
+
+// { 
+//   '0': { 
+//     title: 'folder_1', 
+//     type: 'folder', 
+//     permission: true 
+//   },
+//   '0.children.0': { 
+//     title: 'file_1', 
+//     type: 'sketch' 
+//   },
+//   '0.children.1': { 
+//     title: 'file_2', 
+//     type: 'pdf'
+//   }
+// }
 
 ```
 
