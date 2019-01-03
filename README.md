@@ -1,5 +1,5 @@
 # Json-Tree Flat
-  Use this libarary to flatten your tree Json. Provided the key for  branching node in json  we can obtain a flatten  object with path to object as a key hash
+  Use this library to flatten your tree Json. Provided the key for  branching node in json  we can obtain a flatten  object with path to object as a key hash
 
 ## Usage
 
