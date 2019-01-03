@@ -1,3 +1,9 @@
 language: node_js
-node: 
-  -"stable"
+node_js:
+  - "node"
+  - "10"
+before_install:
+  - npm ci -g npm@6.4.1
+before_script:
+  - npm ci
+script: npm test
